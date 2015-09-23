@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" }
 
   s.author = { "Nick Kibish" => "kibish@steelkiwi.com" }
-  s.source = { :https => "https://github.com/SnowyWhite/ReactiveCocoaUtils.git", :tag => "#{s.version}"}
+  s.source = { :git => "git@github.com:SnowyWhite/ReactiveCocoaUtils.git", :tag => "#{s.version}"}
   s.framework = "UIKit"
   s.dependency 'ReactiveCocoa', '~> 2'
   s.source_files = "ReactiveCocoaUtils/**/*.{swift}"
